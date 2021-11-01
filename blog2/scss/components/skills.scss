@@ -1,0 +1,62 @@
+.skills{
+  padding-top: 145px;
+  padding-bottom: 110px;
+  &__title{
+    font-family: 'Gilroy-bold', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+  }
+
+  &__text{
+    font-family: 'Gilroy-bold', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    padding-top: 69px;
+  }
+
+  &__wrapper-image{
+    display: flex;
+  }
+
+  &__list{
+    display: flex;
+    justify-content: center;
+    padding-top: 83px;
+  }
+
+  &__item{
+    padding-right: 90px;
+
+    &:last-child{
+      padding-right: 0;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .skills {
+    padding-top: 83px;
+    padding-bottom: 98px;
+
+    & &__text {
+      padding-top: 50px;
+    }
+
+    & &__list {
+      flex-direction: column;
+      margin: 0 auto;
+      padding-top: 70px;
+    }
+
+    & &__item {
+      padding-right: 0;
+      padding-bottom: 80px;
+    }
+  }
+}

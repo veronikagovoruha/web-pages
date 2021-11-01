@@ -1,0 +1,45 @@
+.welcome {
+  background-color: #F5F5F5;
+  padding-top: 102px;
+  padding-bottom: 102px;
+  .welcome_container {
+    display: flex;
+  }
+
+  .welcome__image {
+    width: 484px;
+  }
+
+  .welcome__right {
+
+  }
+
+  .welcome__headline {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 47px;
+    color: #000000;
+    text-shadow: rgba(0, 0, 0, 0.25);
+    margin-bottom: 60px;
+  }
+
+  .welcome__text-up {
+    padding-bottom: 20px;
+  }
+
+  .welcome__text {
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.55);
+    margin-right: 85px;
+    margin-left: 85px;
+  }
+}
+
+
+
+

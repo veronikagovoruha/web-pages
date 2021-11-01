@@ -1,0 +1,38 @@
+.book{
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+}
+.book__headline{
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 53px;
+  color: #fff;
+  margin-bottom: 56px;
+}
+.book_container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 468px;
+  width: 100%;
+  white-space: nowrap;
+}
+.book__link{
+  padding: 16px 32px;
+  border: 1px solid #5C98F3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #5C98F3;
+}

@@ -1,0 +1,48 @@
+.portfolio{
+  background: #F6F6F6;
+  padding-top: 112px;
+
+  &__title{
+    font-family: 'Gilroy-bold', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-bottom: 47px;
+  }
+
+  &__image{
+    width: 100%;
+    padding-bottom: 44px;
+  }
+
+  &__link-wrapper{
+    padding-bottom: 99px;
+    text-align: center;
+  }
+
+  &__link{
+    font-family: 'Gilroy-bold', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+
+    &:hover{
+      opacity: .6;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .skills {
+    padding-top: 81px;
+
+    & &__link-wrapper {
+      padding-bottom: 80px;
+    }
+  }
+}

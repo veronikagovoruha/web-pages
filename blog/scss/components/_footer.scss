@@ -1,0 +1,35 @@
+.footer{
+  margin-top: 82px;
+  padding-top: 50px;
+  &__container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+  }
+  &__list{
+    display: flex;
+    justify-content: center;
+  }
+  &__item{
+    display: flex;
+    padding-right: 35px;
+    padding-bottom: 26px;
+    &:last-child{
+      padding-right: 0;
+    }
+  }
+  &__wrapper{
+    display: flex;
+    justify-content: center;
+  }
+  &__copyright{
+    font-family: 'Heebo', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #21243D;
+    padding-bottom: 54px;
+    margin: 0;
+  }
+}

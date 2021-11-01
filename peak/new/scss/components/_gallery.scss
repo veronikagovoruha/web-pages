@@ -1,0 +1,23 @@
+.gallery__headline{
+  display: none;
+}
+
+.gallery__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery__item{
+  img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+  width: 33.3333333%;
+
+  &:nth-child(4){
+    width: 50%;
+  }
+  &:nth-child(5){
+    width: 50%;
+  }
+}

@@ -1,0 +1,43 @@
+.connect{
+  background: rgba(204, 209, 255, 0.2);
+  margin-top: 88px;
+  .connect__container{
+    display: flex;
+    justify-content: space-between;
+  }
+.connect__wrapper-title{
+
+}
+  .connect__title{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 107.4%;
+    color: rgba(0, 0, 0, 0.9);
+    padding-top: 51px;
+  }
+  .connect__text{
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 51px;
+  }
+
+  .connect__button{
+    padding-top: 70px;
+  }
+  .connect__button-title{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+
+
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 140px;
+    background: rgba(243, 94, 61, 0.9);
+    border-radius: 29px;
+  }
+}

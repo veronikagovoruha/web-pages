@@ -1,0 +1,43 @@
+.utp {
+  .utp__headline{
+    display: none;
+  }
+  .utp__list {
+    margin-top: 88px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    //margin-bottom: 50px;
+  }
+
+  .utp__item {
+    flex: 0 1 28%;
+    max-width: 28%;
+  }
+
+  .utp__item-title {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    color: #000;
+  }
+
+  .utp__item-text {
+    text-align: center;
+    font-family: "Microsoft Sans Serif", serif;
+    font-size: 18px;
+    color: #000;
+    opacity: .6;
+  }
+  .utp__wrapper-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .utp__item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+

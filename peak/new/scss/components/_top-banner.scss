@@ -1,0 +1,79 @@
+.top-banner {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+  }
+
+  .top-banner__stars-list {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    &:before {
+      content: '';
+      display: flex;
+      height: 1px;
+      width: 60px;
+      background: #fff;
+      margin-right: 15px;
+    }
+
+    &:after {
+      content: '';
+      display: flex;
+      height: 1px;
+      width: 60px;
+      background: #fff;
+      margin-left: 15px;
+    }
+  }
+
+  .top-banner__star-image {
+    margin-right: 8px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .top-banner__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+
+  .top-banner__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 468px;
+    width: 100%;
+  }
+
+  .top-banner__headline {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 87px;
+    color: #FFFFFF;
+  }
+}

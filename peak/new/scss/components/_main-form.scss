@@ -1,0 +1,88 @@
+.main-form{
+  padding-top: 106px;
+  position: relative;
+  padding-bottom: 329px;
+  .main-form__headline{
+    font-family: "Playfair Display", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 47px;
+    color: #000000;
+  }
+  .main-form__form{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-form__form-name{
+    width: 295px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    margin-right: 17px;
+    padding-left:22px;
+  }
+  .main-form__form-room{
+    width: 295px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    padding-left:22px;
+  }
+  .main-form__form-email{
+    width: 612px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    padding-left:22px;
+  }
+  .main-form__form-textarea{
+    width: 612px;
+    height: 165px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 34px;
+    padding: 16px 22px;
+    resize: none;
+    position: relative;
+    z-index: 10;
+  }
+  .main-form__form-submit{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 172.22px;
+    height: 52px;
+    background: #5C98F3;
+    border-radius: 1px;
+    border: 1px solid #5c98f3;
+  }
+  .main-form__image-girl{
+    position: absolute;
+    width: 670px;
+    height: 811px;
+    left: 392px;
+    bottom: 0;
+    z-index: 5;
+  }
+  .main-form__image-logo{
+    position: absolute;
+    width: 1615px;
+    height: 427px;
+    bottom: 0;
+    right: -216px;
+    z-index: 1;
+  }
+}

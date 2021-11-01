@@ -1,0 +1,97 @@
+.rest-menu{
+  background-color: #F5F5F5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .rest-menu__headline{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 47px;
+  }
+
+  .rest-menu__top{
+    display: flex;
+    align-items: center;
+    height: 104px;
+    border: 1px solid #5C98F3;
+    background-color: #5C98F3;
+    border-radius: 5px;
+  }
+
+  .rest-menu__top-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 340px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .rest-menu__top-item{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .rest-menu__top-item--active{
+    &:hover{
+      cursor: pointer;
+      opacity: .6;
+    }
+  }
+
+  .rest-menu__content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 104px;
+    width: 770px;
+  }
+
+  .rest-menu__content-item{
+    padding-left: 172px;
+    padding-bottom: 62px;
+    &:last-child{
+      padding-left: 172px;
+      padding-bottom: 96px;
+    }
+
+  }
+
+  .rest-menu__content-item-price{
+    font-size: 25px;
+    line-height: 28px;
+    font-family: "Microsoft Sans", serif;
+    color: #5C98F3;
+    padding-bottom: 26px;
+  }
+
+  .rest-menu__content-item-name{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: "Playfair Display", serif;
+    color: #000000;
+    padding-bottom: 26px;
+  }
+
+  .rest-menu__content-item-text{
+    font-size: 20px;
+    line-height: 23px;
+    font-family: "Microsoft Sans", serif;
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 26px;
+  }
+
+  .rest-menu__wrapper{
+    width: 1114px;
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

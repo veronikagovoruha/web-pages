@@ -1,0 +1,19 @@
+.partner{
+  max-width: 935px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+
+  &__list{
+    display: flex;
+  }
+
+  &__item{
+    display: flex;
+    padding-right: 76px;
+    &:last-child{
+      padding-left: 0;
+    }
+  }
+}

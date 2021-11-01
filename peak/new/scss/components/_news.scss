@@ -1,0 +1,66 @@
+.news{
+  .news_container{
+
+  }
+
+  .news__headline{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 47px;
+    color: #000000;
+  }
+
+  .news__list{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .news__item{
+    flex: 0 1 28%;
+    max-width: 28%;
+  }
+
+  .news__item-date{
+    display: inline-flex;
+    border: 1px solid #5C98F3;
+    border-radius: 5px;
+    padding: 8px 18px;
+    background-color: #5C98F3;
+    color: #fff;
+    font-family: "Microsoft Sans Serif", serif;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .news__item-title{
+    display: flex;
+    font-family: "Playfair Display", serif;
+    font-size: 23px;
+    line-height: 31px;
+    text-decoration: none;
+    margin-bottom: 32px;
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .news__item-text{
+    display: flex;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .news__item-more-link{
+    display: flex;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    padding-top: 42px;
+  }
+}

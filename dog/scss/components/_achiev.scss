@@ -1,0 +1,48 @@
+.achiev{
+  background: rgba(243, 94, 61, 0.9);
+  .achiev__container{
+    display: flex;
+    align-items: center;
+    height: 222px;
+  }
+  .achiev__wrapper-title{
+
+
+  }
+  .achiev__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 107.4%;
+    color: #FFFFFF;
+    padding-left: 15px;
+  }
+
+  .achiev__title-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .achiev__wrapper-title{
+    width: 365px;
+    padding-right: 230px;
+  }
+
+  .achiev__list{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .achiev__item{
+    padding-right: 62px;
+    &:last-child{
+      padding-right: 0;
+    }
+  }
+
+  .achiev__item-text{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+  }
+}

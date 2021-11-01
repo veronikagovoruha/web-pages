@@ -1,0 +1,45 @@
+.about{
+  background: #F6F6F6;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  &__title{
+    font-family: 'Gilroy-bold', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+  }
+
+  &__wrapper-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  &__text{
+    font-family: 'Gilroy-bold', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    max-width: 485px;
+  }
+
+  &__text-one{
+    padding-bottom: 45px;
+  }
+
+  &__text-two{
+    padding-bottom: 45px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about{
+    padding-top: 80px;
+    padding-bottom: 76px;
+  }
+}

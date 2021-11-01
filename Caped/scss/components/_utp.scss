@@ -1,0 +1,46 @@
+.utp{
+  margin-top: 70px;
+
+  &__list{
+    display: grid;
+    grid-gap: 20px;
+    margin-bottom: 64px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "getup getup girlone girltwo"
+                          "summer summer girlone girltwo"
+                          "girlthree girlfour trend trend"
+                          "girlthree girlfour buy buy";
+  }
+
+  &__getup{
+    grid-area: getup;
+  }
+
+  &__girlone{
+    grid-area: girlone;
+  }
+
+  &__girltwo{
+    grid-area: girltwo;
+  }
+
+  &__summer{
+    grid-area: summer;
+  }
+
+  &__girlthree{
+    grid-area: girlthree;
+  }
+
+  &__girlfour{
+    grid-area: girlfour;
+  }
+
+  &__trend{
+    grid-area: trend;
+  }
+
+  &__buy{
+    grid-area: buy;
+  }
+}

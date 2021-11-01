@@ -1,0 +1,25 @@
+.footer{
+  max-width: 1960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 20px;
+  box-sizing: border-box;
+  margin-top: 93px;
+  margin-bottom: 93px;
+
+  &__copyright{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    padding-top: 28px;
+    padding-left: 100px;
+    color: #AEB8D0;
+  }
+}

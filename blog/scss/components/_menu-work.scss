@@ -1,0 +1,58 @@
+.menu__work{
+  .menu__work-title{
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    padding-top: 106px;
+    padding-bottom: 56px;
+    margin: 0;
+  }
+  .menu__work-title-h1{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin: 0;
+    padding-bottom: 16px;
+  }
+  .menu__work-wrapper-date{
+    display: flex;
+  }
+  .menu__work-date{
+    font-family: 'Heebo', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+    border-right: 1px solid #000000;
+    padding-right: 20px;
+  }
+  .menu__work-place{
+    font-family: 'Heebo', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+    margin: 0;
+    padding-left: 20px;
+  }
+  .menu__work-date{
+    margin: 0;
+  }
+  .menu__work-text{
+    max-width: 610px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+  }
+  .menu__work-wrapper{
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
